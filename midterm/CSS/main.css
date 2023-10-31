@@ -1,0 +1,76 @@
+
+<link href="css/main.css" rel="stylesheet"> 
+
+
+
+/* 
+  using the body selector 
+  styling the by adding three declarations
+*/
+.wrapper{
+    /* adds a width and centers*/
+    width: 500px;
+    margin: auto;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: Lone Starfish;
+    font-color: white;
+  }
+  /* Centered text */
+.centered {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: x-large;
+    font-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #aad4cf;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-size: 2opx;
+    position: center;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding: 0;
+
+}
+
+ul {
+    list-style-type: circle;
+    margin: 2px;
+    padding: 6px;
+    overflow: hidden; 
+   
+  }
+
+  
+  li {
+    float: left;
+    border-right: 2px solid black;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    padding-right: 30px;
+  }
+  li:last-child {
+    border-right: none;
+  }
+  /* Change the link color to whitesmoke on hover */
+  li a:hover {
+    background-color: whitesmoke;
+  }
+  
+  form{
+    .container
+    padding: 4px;
+    border: 2px solid black;
+  }
