@@ -1,5 +1,5 @@
 
-<link href="css/main.css" rel="stylesheet"> 
+<centered href="css/main.css" rel="stylesheet"> 
 
 
 
@@ -26,17 +26,18 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: x-large;
+
     font-color: white;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body{
     background-color: #aad4cf;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: system-ui,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
     font-size: 2opx;
     position: center;
     margin-right: 300px;
     margin-left: 300px;
-    padding: 0;
+    Padding : 0;
 
 }
 
@@ -71,6 +72,6 @@ ul {
   
   form{
     .container
-    padding: 4px;
+    padding: 4px 
     border: 2px solid black;
   }
