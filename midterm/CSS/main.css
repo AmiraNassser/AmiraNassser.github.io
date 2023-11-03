@@ -1,77 +1,96 @@
-
-<centered href="css/main.css" rel="stylesheet"> 
-
-
-
-/* 
-  using the body selector 
-  styling the by adding three declarations
-*/
-.wrapper{
-    /* adds a width and centers*/
-    width: 500px;
-    margin: auto;
+html {
+    box-sizing: border-box;
+    padding: 0 100px;
 }
 
-/* Container holding the image and the text */
-.container {
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #aad4cf;
+}
+
+header {
     position: relative;
-    text-align: Lone Starfish;
-    font-color: white;
-  }
-  /* Centered text */
-.centered {
+}
+
+header img {
+    width: 100%;
+    height: 400px;
+}
+
+.heading-text {
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: x-large;
-
-    font-color: white;
-    font-family: system-ui,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: #fff;
 }
-body{
+/* Container holding the image and the text */
+
+.navbar {
+    width: 100%;
     background-color: #aad4cf;
-    font-family: system-ui,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-    font-size: 2opx;
-    position: center;
-    margin-right: 300px;
-    margin-left: 300px;
-    Padding : 0;
-
+    overflow: auto;
 }
 
-ul {
-    list-style-type: circle;
-    margin: 2px;
-    padding: 6px;
-    overflow: hidden; 
-   
-  }
-
-  
-  li {
+.navbar a {
     float: left;
-    border-right: 2px solid black;
-  }
-  
-  li a {
-    display: block;
+    font-weight: 600;
+    padding: 12px;
     color: black;
-    text-align: left;
     text-decoration: none;
-    padding-right: 30px;
-  }
-  li:last-child {
+    font-size: 17px;
+    width: 33.33%;
+    text-align: center;
+    border-right: 1px black solid;
+}
+ 
+.navbar a:last-child {
     border-right: none;
-  }
-  /* Change the link color to whitesmoke on hover */
-  li a:hover {
-    background-color: whitesmoke;
-  }
+}
+
+.float img {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+section {
+    clear: both;
+}
+
+section li {
+    margin-bottom: 10px;
+}
   
-  form{
-    .container
-    padding: 4px 
-    border: 2px solid black;
-  }
+form {
+    margin: 20px;
+}  
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+}
+
+.form-group textarea {
+    width: 100%;
+    height: 100px;
+}
+
+.radio-inline {
+    display: inline;
+    position: relative;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 20px;
+}
