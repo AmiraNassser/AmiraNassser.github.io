@@ -1,0 +1,87 @@
+
+
+html {
+  font-family: open sans-serif;
+  box-sizing: border-box;
+  padding:  100px;
+}
+body {
+  font-family:  Open sans-serif; 
+  background-color:#c78c06;
+}
+header {
+  position: relative;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color:c78c06;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:c78c06;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.welcome {
+  background: images/images/main-banner.jpg;
+  background-repeat:no-repeat;
+  background-size: 912px 378px; 
+} 
+
+h1 {
+  font-size: large;
+  color: white;
+}
+ .About us{
+  background-size: 912pt 208pt;
+  background-color: ffe6ac;
+
+  /* ADDED: A grid to make tihe division between the image and the text*/
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font: 500 100%/1.5 system-ui;
+ }
+
+ img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ADDED: Media inquirey*/
+@media (max-width: 650px) {
+  body {
+    display: block;
+    font-size: 80%;
+  }
+  p {
+    position: relative;
+    margin: -3rem 0 2rem 1rem;
+    padding: 1rem;
+    background: rgba(white, 0.8);
+  }
+}
+
